@@ -1,0 +1,15 @@
+[package]
+name = "aes_cbc_encrypt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes = "0.8"
+block-modes = "0.8"
+block-padding = "0.3"
+hex = "0.4"
+rand = "0.8"
+sha2 = "0.10"
+pbkdf2 = "0.12"
+walkdir = "2.5"
+
